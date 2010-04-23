@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change xmlns="http://www.rbs.fr/schema/change-component/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rbs.fr/schema/change-component/1.0 http://www.rbschange.fr/static/schema/change-component/1.0.xsd">
+  <name>Mail</name>
+  <type>lib-pear</type>
+  <version>1.1.14</version>
+  <description>Mail</description>
+  <license>os</license>
+  <repository>public</repository>
+  <dependencies>
+    <dependency>
+      <name>lib-pear/Net_SMTP</name>
+      <versions>
+        <version>1.2.8</version>
+      </versions>
+    </dependency>
+  </dependencies>
+</change>
